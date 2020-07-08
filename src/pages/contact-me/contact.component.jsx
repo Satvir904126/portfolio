@@ -9,7 +9,7 @@ class Contact extends Component {
   render() {
     return (
       <Container>
-        <div className="jumbotron justify-content-center  ">
+        <div className="jumbotron justify-content-center  " id="contact-me">
           <h2 className="text-center mt-0 mb-3 ">Contact Me</h2>
 
           <div className="row justify-content-center flex-wrap ">

@@ -4,14 +4,14 @@ export const projectDetail = [
   {
     id: 1,
     title: "Online Shopping",
-    img: "images/profilePic.JPG",
+    img: require("./images/profilePic.JPG"),
     description: "This site is online site  user can online buy things",
     gitLink: "http://www.google.com",
   },
   {
     id: 2,
     title: "Chocolate",
-    img: "images/navlogo.png",
+    img: require("./images/navlogo.png"),
     description: "In this site user can buy chocolate",
   },
 ];

@@ -16,7 +16,7 @@ export default function Projects() {
   });
   return (
     <Container>
-      <div>
+      <div id="project">
         <h1 className="text-center">Projects</h1>
 
         {projectDetail.map((proj) => (

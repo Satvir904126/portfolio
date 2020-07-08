@@ -3,11 +3,6 @@ import carousel1 from "../../images/coading1.jpg";
 import carousel2 from "../../images/coading2.jpg";
 import carousel3 from "../../images/coading3.jpg";
 
-import Project from "../../pages/projects/projects.component";
-import Contact from "../../pages/contact-me/contact.component";
-import About from "../../pages/about-page/about.component";
-import Skills from "../../pages/skills/skills.componet";
-
 const Carousel = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -79,9 +74,6 @@ const Carousel = () => {
         </div>
         <div></div>
       </div>
-      <About></About>
-      <Skills></Skills>
-      <Project></Project>
     </div>
   );
 };

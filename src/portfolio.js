@@ -14,23 +14,20 @@ class Portfolio extends Component {
   state = {};
   render() {
     return (
-      <Router>
+      <>
         <Navbar></Navbar>
-        <Switch>
-          <Route path="/" exact component={Carousel} />
-          {/* <Carousel></Carousel> */}
-          <Route path="/about" component={About}></Route>
-          {/* <About></About> */}
-          <Route path="/skills" component={Skills}></Route>
 
-          {/* <Skills></Skills> */}
-          <Route path="/project" component={Project}></Route>
+        <Carousel></Carousel>
+        <About></About>
 
-          {/* <Project></Project> */}
-        </Switch>
+        <Skills></Skills>
+        {/* <Route path="/project" component={Project}></Route> */}
+
+        <Project></Project>
+
         <Contact></Contact>
         <Footer />
-      </Router>
+      </>
     );
   }
 }

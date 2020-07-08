@@ -26,7 +26,7 @@ const Navbar = () => {
         {/* <div classNmae="collapse navbar-collapse" id="navbarNavDropdown"> */}
         <NavDiv className="collapse navbar-collapse " id="navbarNavDropdown">
           <ul className="navbar-nav ">
-            <Link className="nav-item nav-link" to="/">
+            {/* <Link className="nav-item nav-link" to="/home">
               Profile
             </Link>
             <Link className="nav-item nav-link" to="/about">
@@ -37,7 +37,23 @@ const Navbar = () => {
             </Link>
             <Link className="nav-item nav-link" to="/project">
               Project
-            </Link>
+            </Link> */}
+            <a className="nav-item nav-link " href="#">
+              Profile
+            </a>
+            <a className="nav-item nav-link " href="#profile">
+              About Me
+            </a>
+            <a className="nav-item nav-link " href="#skill">
+              Skills
+            </a>
+            <a className="nav-item nav-link " href="#project">
+              Project
+            </a>
+
+            <a className="nav-item nav-link " href="#contact-me">
+              Contact
+            </a>
           </ul>
         </NavDiv>
       </div>
