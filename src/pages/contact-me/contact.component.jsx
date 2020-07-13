@@ -25,12 +25,7 @@ class Contact extends Component {
                 <ul>
                   <li>
                     <i className="fa fa-envelope"></i>
-                    <a
-                      href="https://www.linkedin.com/in/satvir-singh-b476001ab/"
-                      target="_blank"
-                    >
-                      Email me
-                    </a>
+                    <a href="mailto:satvir3219@gmail.com">Email me</a>
                   </li>
                   <li>
                     <i className="fa fa-linkedin"></i>
@@ -38,7 +33,6 @@ class Contact extends Component {
                       href="https://www.linkedin.com/in/satvir-singh-b476001ab/"
                       target="_blank"
                     >
-                      {" "}
                       Linkedin
                     </a>
                   </li>
