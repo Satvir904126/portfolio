@@ -39,7 +39,6 @@ class Contact extends Component {
                   <li>
                     <i className="fa fa-bitbucket"></i>{" "}
                     <a href="https://github.com/Satvir904126" target="_blank">
-                      {" "}
                       GitHub
                     </a>
                   </li>

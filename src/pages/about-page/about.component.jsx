@@ -33,7 +33,7 @@ const AboutPage = () => {
             <div className="col d-flex justify-content-center ">
               <Button
                 className=" m-2 p-2 col-sm-7 col-lg-5 "
-                href="https://www.linkedin.com/in/satvir-singh-b476001ab/"
+                onclick="window.location.href='https://github.com/Satvir904126'"
                 target="_blank"
               >
                 Resume
@@ -41,20 +41,20 @@ const AboutPage = () => {
             </div>
           </div>
           <div>
-            <Button
-              className=" m-2 p-1 col-sm-7 col-lg-5"
+            <a
               href="https://www.linkedin.com/in/satvir-singh-b476001ab/"
               target="_blank"
             >
-              Linkedin
-            </Button>
-            <Button
-              className=" m-2 p-1 col-sm-7 col-lg-5"
-              href="https://github.com/Satvir904126"
-              target="_blank"
-            >
-              GitHub
-            </Button>
+              <Button className=" m-2 p-1 col-sm-7 col-lg-5">Linkedin</Button>
+            </a>
+            <a href="https://github.com/Satvir904126" target="_blank">
+              <Button
+                className=" m-2 p-1 col-sm-7 col-lg-5"
+                href="https://github.com/Satvir904126"
+              >
+                GitHub
+              </Button>
+            </a>
           </div>
         </Description>
       </div>
@@ -65,6 +65,12 @@ const Description = styled.div`
   font-family: "Arapey", serif;
   .row {
     margin-right: -30px !important;
+  }
+  p {
+    font-family: serif;
+  }
+  strong {
+    font-size: 25px;
   }
 `;
 export default AboutPage;

@@ -39,7 +39,7 @@ export const projectDetail = [
     img: require("./images/onlineShopping.png"),
     description:
       "This website shows the different categories of the product, where user can check the products and add to cart. However to buy or open the cart user have to login first.",
-    gitLink: "http://www.google.com",
+    gitLink: "https://github.com/Satvir904126/Online-Shopping-JavaScript",
     seeSite:
       "https://satvir904126.github.io/myProjects/onlineShoppingJavaScript/",
     techUsed: ["HTML5", "CSS3", "JavaScript"],
@@ -76,7 +76,7 @@ export const projectDetail = [
     id: 7,
     type: "android",
     title: "android",
-    img: require("./images/html-5.png"),
+    img: require("./images/android.png"),
     description:
       "It is a mobile app where user first login and then add products to the cart. User can also increase or decrease the quantity of products they want to buy and can see their final order before placing it.",
     gitLink: "https://github.com/Satvir904126/android-shopping-cart-app",
@@ -89,7 +89,7 @@ export const projectDetail = [
     img: require("./images/TicTacToe.png"),
     description:
       "It’s a small  Tic Tac Toe game and It keep a record of a winner for example X  or Y. You can choose 3*3 grid or 4*4 Grid to play. ",
-    gitLink: "https://github.com/Satvir904126/TicTacToe-Jav",
+    gitLink: "https://github.com/Satvir904126/TicTacToe-Java",
     techUsed: ["Java", "eclipse"],
   },
 ];
