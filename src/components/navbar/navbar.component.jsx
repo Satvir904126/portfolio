@@ -63,15 +63,19 @@ const Navbar = () => {
 const NavDiv = styled.div`
   font-family: "Kalam", cursive;
   font-size: 25px;
+  transition: 1.4s ease 0s;
+
   a {
     margin: 0 20px;
   }
   .nav-item {
     color: #55437a !important;
+    transition: 0.5s ease-in-out 0s;
   }
   .nav-item:hover {
     font-size: 30px;
     color: black !important;
+    transition: 0.5s ease-in-out 0s;
   }
 `;
 export default Navbar;

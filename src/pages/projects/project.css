@@ -6,3 +6,14 @@
 .descriptionList > li {
   padding: 20px;
 }
+.nav {
+  top: 80px;
+}
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  width: 120px;
+  border-style: none !important;
+  border-radius: 10px;
+  outline: none !important;
+}
