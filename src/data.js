@@ -7,18 +7,20 @@ export const projectDetail = [
     type: "html",
     img: require("./images/HtmlProj.png"),
     description:
-      "In this website user can check the Flight detail and the list of various flights, also he can book the ticket. ",
+      "It is a static website where user can check the Flight detail and the list of various flights, also he can book the ticket. ",
     gitLink: "https://github.com/Satvir904126/Airline-Resarvation",
+    seeSite: "https://github.com/Satvir904126/Airline-Resarvation",
+    techUsed: ["HTML5", "CSS3"],
   },
-  {
-    id: 22,
-    title: "AirLine Reservation2",
-    type: "html",
-    img: require("./images/profilePic.JPG"),
-    description:
-      "In this website user can check the Flight detail and the list of various flights, also he can book the ticket. ",
-    gitLink: "https://github.com/Satvir904126/Airline-Resarvation",
-  },
+  // {
+  //   id: 22,
+  //   title: "AirLine Reservation2",
+  //   type: "html",
+  //   img: require("./images/profilePic.JPG"),
+  //   description:
+  //     "In this website user can check the Flight detail and the list of various flights, also he can book the ticket. ",
+  //   gitLink: "https://github.com/Satvir904126/Airline-Resarvation",
+  // },
   {
     id: 2,
     title: "Weather App",
@@ -27,6 +29,7 @@ export const projectDetail = [
     description:
       "In this app user can check the weather by selecting country with state name.",
     gitLink: "https://github.com/Satvir904126/React-weather-app",
+    techUsed: ["React js", "BootStrap", "Visiual Studio"],
   },
 
   {
@@ -37,24 +40,28 @@ export const projectDetail = [
     description:
       "This website shows the different categories of the product, where user can check the products and add to cart. However to buy or open the cart user have to login first.",
     gitLink: "http://www.google.com",
+    seeSite:
+      "https://satvir904126.github.io/myProjects/onlineShoppingJavaScript/",
+    techUsed: ["HTML5", "CSS3", "JavaScript"],
   },
-  {
-    id: 4,
-    type: "php",
-    title: "Chocolate",
-    img: require("./images/html-5.png"),
-    description: "In this site user can buy chocolate",
-    gitLink: "http://www.google.com",
-  },
-  {
-    id: 5,
-    type: "php",
-    title: "Activity Tracker",
-    img: require("./images/html-5.png"),
-    description:
-      "This project is about tracking the daily routine work. To add the new activity user have to login first and user can also create a new account. Then user can add the activities with different categories (cooking, playing, etc.)",
-    gitLink: "https://bitbucket.org/isiteachers/deploy3-magenta/src/master/",
-  },
+  // {
+  //   id: 4,
+  //   type: "php",
+  //   title: "Chocolate",
+  //   img: require("./images/html-5.png"),
+  //   description: "In this site user can buy chocolate",
+  //   gitLink: "http://www.google.com",
+  //   techUsed: ["HTML5", "CSS3"],
+  // },
+  // {
+  //   id: 5,
+  //   type: "php",
+  //   title: "Activity Tracker",
+  //   img: require("./images/html-5.png"),
+  //   description:
+  //     "This project is about tracking the daily routine work. To add the new activity user have to login first and user can also create a new account. Then user can add the activities with different categories (cooking, playing, etc.)",
+  //   gitLink: "https://bitbucket.org/isiteachers/deploy3-magenta/src/master/",
+  // },
   {
     id: 6,
     type: "c#",
@@ -63,6 +70,7 @@ export const projectDetail = [
     description:
       "In this Application user can add their name with phone number, also can search the number or remove it from the list",
     gitLink: "https://github.com/Satvir904126/PoneBook-C-",
+    techUsed: ["C#", "Xmal"],
   },
   {
     id: 7,
@@ -72,6 +80,7 @@ export const projectDetail = [
     description:
       "It is a mobile app where user first login and then add products to the cart. User can also increase or decrease the quantity of products they want to buy and can see their final order before placing it.",
     gitLink: "https://github.com/Satvir904126/android-shopping-cart-app",
+    techUsed: ["Android Studio", " Android developer tools", " Android SDK"],
   },
   {
     id: 8,
@@ -81,6 +90,7 @@ export const projectDetail = [
     description:
       "It’s a small  Tic Tac Toe game and It keep a record of a winner for example X  or Y. You can choose 3*3 grid or 4*4 Grid to play. ",
     gitLink: "https://github.com/Satvir904126/TicTacToe-Jav",
+    techUsed: ["Java", "eclipse"],
   },
 ];
 export const logos = [
