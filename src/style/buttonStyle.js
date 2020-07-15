@@ -6,13 +6,14 @@ export default styled.button`
   text-decoration: none;
   background: #ffffff;
   padding: 20px;
-  border: 4px solid #494949 !important;
+  border: 2px solid #494949 !important;
   display: inline-block;
   transition: all 1.4s ease 0s;
+  font-family: "Overlock", cursive;
   &:hover {
     color: #ffffff !important;
-    background: #f6b93b;
-    border-color: #f6b93b !important;
+    background: #2a2a2a;
+    border-color: #2a2a2a !important;
     transition: all 0.4s ease 0s;
   }
 `;

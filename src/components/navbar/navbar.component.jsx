@@ -39,7 +39,7 @@ const Navbar = () => {
               Project
             </Link> */}
             <a className="nav-item nav-link " href="#">
-              Profile
+              Home
             </a>
             <a className="nav-item nav-link " href="#profile">
               About Me
@@ -61,15 +61,15 @@ const Navbar = () => {
   );
 };
 const NavDiv = styled.div`
-  font-family: "Kalam", cursive;
+  font-family: "axiforma", cursive;
   font-size: 25px;
   transition: 1.4s ease 0s;
-
+  font-weight: 600;
   a {
     margin: 0 20px;
   }
   .nav-item {
-    color: #55437a !important;
+    color: #2a2a2a !important;
     transition: 0.5s ease-in-out 0s;
   }
   .nav-item:hover {

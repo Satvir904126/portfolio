@@ -4,20 +4,18 @@ import ProfilePic from "../../images/profilePic.JPG";
 import styled from "styled-components";
 import Button from "../../style/buttonStyle";
 import SectionTop from "../../style/sectionTop";
+import Heading from "../../style/headings";
 const AboutPage = () => {
-  // useEffect(() => {
-  //   window.scrollTo(20, 500);
-  // });
   return (
     <div className="profile ">
       <SectionTop id="profile"></SectionTop>
 
-      <h1 className="text-center section-heading about ">About me</h1>
+      <Heading className="text-center section-heading about ">About me</Heading>
       <div className="d-flex flex-wrap justify-content-center">
-        <div className="myImage d-flex align-items-center m-5 col-lg-3 col-sm-6">
+        <ProfileImg className="myImage d-flex align-items-center m-5 col-lg-3 col-sm-6">
           <img src={ProfilePic} alt="my pic"></img>
-        </div>
-        <Description className="card description p-5  m-4 col-lg-5 col-sm-10">
+        </ProfileImg>
+        <Description className="description p-5  m-4 col-lg-5 col-sm-10">
           <strong>Hii there! I am Satvir Singh</strong>
           <p className="text-justify">
             I am Web Developer with HTML5, CSS3, React Js, Vanilla Javascript,
@@ -29,47 +27,63 @@ const AboutPage = () => {
             scalable projects.
           </p>
           {/* <div className="d-flex justify-content-center mt-3 flex-wrap  profileButton"> */}
-          <div className="row">
-            <div className="col d-flex justify-content-center ">
-              <Button
-                className=" m-2 p-2 col-sm-7 col-lg-5 "
-                onclick="window.location.href='https://github.com/Satvir904126'"
+          <div className="text-center">
+            <div className="m-auto">
+              <a
+                href="https://drive.google.com/file/d/1iw3XFWMVf9PJYNPWlZF2sOB6_X5fixv9/view?usp=sharing"
+                download="resume"
+              >
+                <Button className="m-2  p-1 col-sm-7 col-lg-5">Resume</Button>
+              </a>
+            </div>
+            {/* </div> */}
+            <div>
+              <a
+                href="https://www.linkedin.com/in/satvir-singh-b476001ab/"
                 target="_blank"
               >
-                Resume
-              </Button>
+                <Button className=" m-2 p-1 col-sm-7 col-lg-5">Linkedin</Button>
+              </a>
+              <a href="https://github.com/Satvir904126" target="_blank">
+                <Button
+                  className=" m-2 p-1 col-sm-7 col-lg-5"
+                  href="https://github.com/Satvir904126"
+                >
+                  GitHub
+                </Button>
+              </a>
             </div>
-          </div>
-          <div>
-            <a
-              href="https://www.linkedin.com/in/satvir-singh-b476001ab/"
-              target="_blank"
-            >
-              <Button className=" m-2 p-1 col-sm-7 col-lg-5">Linkedin</Button>
-            </a>
-            <a href="https://github.com/Satvir904126" target="_blank">
-              <Button
-                className=" m-2 p-1 col-sm-7 col-lg-5"
-                href="https://github.com/Satvir904126"
-              >
-                GitHub
-              </Button>
-            </a>
           </div>
         </Description>
       </div>
     </div>
   );
 };
+const ProfileImg = styled.div`
+  .myImage {
+    padding: 0px;
+    border: none;
+    z-index: 2;
+  }
+  img {
+    object-fit: cover;
+
+    height: 400px;
+    border-radius: 7px;
+  }
+`;
 const Description = styled.div`
   font-family: "Arapey", serif;
   .row {
     margin-right: -30px !important;
   }
   p {
+    color: #e4e4e4 !important;
     font-family: serif;
   }
   strong {
+    color: #e4e4e4 !important;
+
     font-size: 25px;
   }
 `;

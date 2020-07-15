@@ -1,1 +1,7 @@
-
+@font-face {
+  font-family: axiforma;
+  src: url(../fonts/FontsFree-Net-sddd4.ttf);
+}
+body {
+  font-family: axiforma;
+}

@@ -8,6 +8,7 @@ export const DataProvider = (props) => {
   const [ShowprojectDetails, setShowProjDetail] = useState(projectDetail);
   const [logo, setlogo] = useState(logos);
   const [project, setProject] = useState([]);
+  const [project1, setProject1] = useState([{}]);
 
   return (
     <div>
@@ -16,6 +17,7 @@ export const DataProvider = (props) => {
           project: [projectDetails, setProjDetail],
           showProj: [ShowprojectDetails, setShowProjDetail],
           empty: [project, setProject],
+          empty1: [project1, setProject1],
           logo: [logo, setlogo],
         }}
       >

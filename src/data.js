@@ -48,19 +48,28 @@ export const projectDetail = [
   //   id: 4,
   //   type: "php",
   //   title: "Chocolate",
-  //   img: require("./images/html-5.png"),
+  //   img: "./images/html-5.png",
   //   description: "In this site user can buy chocolate",
   //   gitLink: "http://www.google.com",
-  //   techUsed: ["HTML5", "CSS3"],
+  //   techUsed: ["HTML5", "CSS3", "PHP", "Github", "Visual Studio"],
   // },
   // {
   //   id: 5,
   //   type: "php",
   //   title: "Activity Tracker",
-  //   img: require("./images/html-5.png"),
+  //   img: "./images/html-5.png",
   //   description:
   //     "This project is about tracking the daily routine work. To add the new activity user have to login first and user can also create a new account. Then user can add the activities with different categories (cooking, playing, etc.)",
   //   gitLink: "https://bitbucket.org/isiteachers/deploy3-magenta/src/master/",
+  //   techUsed: [
+  //     "HTML5",
+  //     "CSS3",
+  //     "PHP",
+  //     "DOcker",
+  //     "Bootstrap4",
+  //     "Github",
+  //     "Visual Studio",
+  //   ],
   // },
   {
     id: 6,
@@ -75,7 +84,7 @@ export const projectDetail = [
   {
     id: 7,
     type: "android",
-    title: "android",
+    title: "Shopping Cart",
     img: require("./images/android.png"),
     description:
       "It is a mobile app where user first login and then add products to the cart. User can also increase or decrease the quantity of products they want to buy and can see their final order before placing it.",

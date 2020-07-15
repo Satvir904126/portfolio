@@ -7,6 +7,8 @@ import styled from "styled-components";
 // import "font-awesome/css/font-awesome.min.css";
 // import "../node_modules/font-awesome/css/font-awesome.min.css";
 import footerImg from "../../images/footer.jpg";
+import Heading from "../../style/headings";
+
 class Contact extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -17,10 +19,11 @@ class Contact extends Component {
         <Container>
           <ContactDiv>
             <div className=" pt-0 justify-content-center  " id="contact-me">
-              <h2 className="section-heading  contactHeader border-2 mt-0 mb-3 pb-3">
-                Get in Touch
-              </h2>
-
+              <div className="d-flex col-sm-12 ">
+                <Heading className="section-heading contactHeader border-2 mt-0 mb-3 pb-3">
+                  Get in Touch
+                </Heading>
+              </div>
               <div className="row justify-content-around flex-wrap ">
                 <ul>
                   <li>
@@ -37,7 +40,7 @@ class Contact extends Component {
                     </a>
                   </li>
                   <li>
-                    <i className="fa fa-bitbucket"></i>{" "}
+                    <i className="fa fa-github"></i>{" "}
                     <a href="https://github.com/Satvir904126" target="_blank">
                       GitHub
                     </a>
@@ -64,24 +67,24 @@ class Contact extends Component {
   }
 }
 const Div = styled.div`
-  background-image: url(${footerImg});
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  z-index: 1;
-  boder-radius: 35px;
-  position: relative;
-  ::after {
-    content: "";
-    background: black;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+  // background-image: url(${footerImg});
+  // background-repeat: no-repeat;
+  // background-size: cover;
+   color: white;
+  // z-index: 1;
+  // boder-radius: 35px;
+  // position: relative;
+  // ::after {
+    // content: "";
+    // background: black;
+    // width: 100%;
+    // height: 100%;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // z-index: -1;
 
-    opacity: 0.6;
+    // opacity: 0.6;
   }
 `;
 const ContactDiv = styled.div`

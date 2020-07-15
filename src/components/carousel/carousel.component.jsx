@@ -29,7 +29,7 @@ const Carousel = () => {
           <div className="carousel-item jumbotron  ">
             {/* <div className="row justify-content-center "> */}
             <img
-              className="row justify-content-center "
+              className="justify-content-center "
               src={carousel2}
               alt="coading1"
               id="name"
