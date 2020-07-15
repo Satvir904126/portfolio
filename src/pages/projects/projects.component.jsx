@@ -188,19 +188,19 @@ export default function Projects() {
                   <div>
                     <div className="d-flex justify-content-around p-5">
                       {proj.seeSite ? (
-                        <Button
+                        <a
                           className="pt-0 pb-0"
                           href="https://satvir904126.github.io/myProjects/onlineShoppingJavaScript/"
                           target="_blank"
                         >
-                          See Site
-                        </Button>
+                          <Button>See Site</Button>
+                        </a>
                       ) : (
                         ""
                       )}
-                      <Button href={proj.gitLink} target="_blank">
-                        View Code
-                      </Button>
+                      <a href={proj.gitLink} target="_blank">
+                        <Button> View Code</Button>
+                      </a>
                     </div>
                     <hr />
                   </div>
