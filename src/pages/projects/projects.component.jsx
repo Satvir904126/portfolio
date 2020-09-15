@@ -281,88 +281,89 @@ const ProjContainer = styled.div`
     width: 100%;
     height: 420px;
   }
- 
+
   .entry {
     position: relative;
     width: 330px;
     height: auto;
     min-height: 400px;
 
-    background: #F0FFF0 !important;
+    background: #f0fff0 !important;
     margin: 15px;
     overflow: hidden;
     float: left;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+  }
 
-    &:hover{
-      img {
-        right: 0px;
-        top: -5px;
-        opacity:1;
-        padding: 0px;
-        @include scale(0.9);
-      }
-      aside {
-        left: -125px;
-        transition: all 0.75s ease;
-        opacity: 0;
-      }
-     
+  img:hover {
+    opacity: 1;
+  }
+  .entry > spam:hover {
+    img {
+      right: 0px;
+      top: -5px;
+      opacity: 1;
+      padding: 0px;
+      @include scale(0.9);
     }
-   
-
     aside {
-      // width:100px;
-      padding: 40px 0px 0px 30px;
-      z-index: 100;
-      position: relative;
-      left: 0px;
-      transition: all 1s ease;
+      left: -125px;
+      transition: all 0.75s ease;
+      opacity: 0;
     }
-    strong {
-      font-family: "effra";
-      text-transform: uppercase;
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 14px;
-      color: #666666;
-    }
-    ul,
-    li {
-      color: #888;
-      display: flex;
-      flex-wrap:wrap;
-      margin: auto;
-    }
-    li {
-      font-size: 13px;
-      line-height: 19px;
+  }
+  aside {
+    // width:100px;
+    padding: 40px 0px 0px 30px;
+    z-index: 100;
+    position: relative;
+    left: 0px;
+    transition: all 1s ease;
+  }
+  strong {
+    font-family: "effra";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666666;
+  }
+  ul,
+  li {
+    color: #888;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  li {
+    font-size: 13px;
+    line-height: 19px;
 
-
-      padding: 5px 4px;
+    padding: 5px 4px;
+  }
+  p {
+    font-family: "Arial";
+    font-size: 13px;
+    margin-top: 20px;
+    color: #888;
+  }
+  h3 {
+    margin: 0px;
+    color: #666666;
+  }
+  spam {
+    &:hover {
+      cursor: pointer;
     }
-    p {
-      font-family: "Arial";
-      font-size: 13px;
-      margin-top: 20px;
-      color: #888;
-    }
-    h3 {
-      margin: 0px;
-      color: #666666;
-    }
-    spam{
-      &:hover{
-        cursor:pointer;
-      }
-    display:block;
-    width:inherit;height:inherit;
+    display: block;
+    width: inherit;
+    height: inherit;
 
     img {
       position: absolute;
       top: 0px;
       // right: -260px;
-      opacity:0;
+      opacity: 0;
       transition: all 1s ease;
       padding: 40px 0px;
     }
