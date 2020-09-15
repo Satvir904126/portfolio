@@ -136,7 +136,7 @@ const Skills = () => {
 };
 const Div = styled.div`
   padding-bottom: 0px !important;
-  background: #d8d8d8 !important;
+  background: #f0fff0 !important;
 
   h3 {
     font-family: "Krub", sans-serif;

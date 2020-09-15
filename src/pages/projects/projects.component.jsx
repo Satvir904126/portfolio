@@ -189,7 +189,7 @@ export default function Projects() {
                     <div className="hover">
                       <article class="entry  col-sm-12  ">
                         <spam>
-                          <aside className="row col-8">
+                          <aside className="row col-12">
                             <h3>{proj.title}</h3>
                             <hr></hr>
 
@@ -272,6 +272,7 @@ const CustomButton = styled(CustomButtonimport)`
   border-style: none !important;
   border-radius: 10px;
   outline: none !important;
+  background: #f0fff0 !important;
 `;
 const ProjContainer = styled.div`
   color: #e4e4e4 !important;
@@ -287,16 +288,17 @@ const ProjContainer = styled.div`
     height: auto;
     min-height: 400px;
 
-    background: white;
+    background: #F0FFF0 !important;
     margin: 15px;
     overflow: hidden;
     float: left;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
 
-    &:hover *{
+    &:hover{
       img {
         right: 0px;
         top: -5px;
+        opacity:1;
         padding: 0px;
         @include scale(0.9);
       }
@@ -307,15 +309,7 @@ const ProjContainer = styled.div`
       }
      
     }
-    .hover:hover *{
-      width: 400px;
-      height: auto;
-      background:red;
-    }
-    article{
-      background:red;
-
-    }
+   
 
     aside {
       // width:100px;
@@ -367,7 +361,8 @@ const ProjContainer = styled.div`
     img {
       position: absolute;
       top: 0px;
-      right: -260px;
+      // right: -260px;
+      opacity:0;
       transition: all 1s ease;
       padding: 40px 0px;
     }
