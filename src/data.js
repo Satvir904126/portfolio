@@ -9,7 +9,7 @@ export const projectDetail = [
     description:
       "It is a static website where user can check the Flight detail and the list of various flights, also he can book the ticket. ",
     gitLink: "https://github.com/Satvir904126/Airline-Resarvation",
-    seeSite: "https://github.com/Satvir904126/Airline-Resarvation",
+    seeSite: "https://satvir904126.github.io/Airline-Resarvation/",
     techUsed: ["HTML5", "CSS3"],
   },
   {
@@ -57,24 +57,24 @@ export const projectDetail = [
     gitLink: "https://github.com/Satvir904126/chocolate-factory-php",
     techUsed: ["HTML5", "CSS3", "PHP", "Github", "Visual Studio"],
   },
-  // {
-  //   id: 5,
-  //   type: "php",
-  //   title: "Activity Tracker",
-  //   img: require("./images/chocolate.png"),
-  //   description:
-  //     "This project is about tracking the daily routine work. To add the new activity user have to login first and user can also create a new account. Then user can add the activities with different categories (cooking, playing, etc.)",
-  //   gitLink: "https://bitbucket.org/isiteachers/deploy3-magenta/src/master/",
-  //   techUsed: [
-  //     "HTML5",
-  //     "CSS3",
-  //     "PHP",
-  //     "DOcker",
-  //     "Bootstrap4",
-  //     "Github",
-  //     "Visual Studio",
-  //   ],
-  // },
+  {
+    id: 5,
+    type: "php",
+    title: "Activity Tracker",
+    img: require("./images/activityTracker.png"),
+    description:
+      "This project is about tracking the daily routine work. To add the new activity user have to login first and user can also create a new account. Then user can add the activities with different categories (cooking, playing, etc.)",
+    gitLink: "https://bitbucket.org/isiteachers/deploy3-magenta/src/master/",
+    techUsed: [
+      "HTML5",
+      "CSS3",
+      "PHP",
+      "DOcker",
+      "Bootstrap4",
+      "Github",
+      "Visual Studio",
+    ],
+  },
   {
     id: 6,
     type: "c#",
