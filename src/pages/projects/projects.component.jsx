@@ -302,14 +302,14 @@ const ProjContainer = styled.div`
     padding: 0px;
     @include scale(0.9);
   }
-  spam:hover {
-    img {
-    }
-    aside {
-      left: -125px;
-      transition: all 0.75s ease;
-      opacity: 0;
-    }
+  // spam:hover {
+  //   img {
+  //   }
+  //   aside {
+  //     left: -125px;
+  //     transition: all 0.75s ease;
+  //     opacity: 0;
+  //   }
   }
   aside {
     // width:100px;
@@ -353,6 +353,11 @@ const ProjContainer = styled.div`
   spam {
     &:hover {
       cursor: pointer;
+      aside {
+        left: -125px;
+        transition: all 0.75s ease;
+        opacity: 0;
+      }
     }
     display: block;
     width: inherit;
