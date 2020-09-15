@@ -17,3 +17,9 @@
   border-radius: 10px;
   outline: none !important;
 } */
+.colomn {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}

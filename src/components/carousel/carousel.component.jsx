@@ -10,7 +10,7 @@ const Carousel = () => {
   //   window.scrollTo(0, 0);
   // });
   return (
-    <div>
+    <Div>
       <div id="info" className="carousel slide fontSize" data-ride="carousel">
         <ol className="carousel-indicators">
           <li data-target="#info" data-slide-to="0" className="active"></li>
@@ -78,9 +78,9 @@ const Carousel = () => {
               steps={[
                 "Web Developer|",
                 1000,
-                "Learner|",
+                " Agile Learner|",
                 1000,
-                "Student",
+                "Designer",
                 1000,
               ]}
               loop={Infinity}
@@ -90,7 +90,7 @@ const Carousel = () => {
         </Heading>
         <div></div>
       </div>
-    </div>
+    </Div>
   );
 };
 const Heading = styled.div`
@@ -105,5 +105,8 @@ const Heading = styled.div`
   p {
     font-size: 1.2em;
   }
+`;
+const Div = styled.div`
+  margin-top: 92px;
 `;
 export default Carousel;

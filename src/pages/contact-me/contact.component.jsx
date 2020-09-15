@@ -48,7 +48,8 @@ class Contact extends Component {
                 </ul>
                 <ul>
                   <li>
-                    <i className="fa fa-phone"></i>(514)575-7646
+                    <i className="fa fa-phone"></i>{" "}
+                    <a href="tel:(514)575-7646">(514)575-7646</a>
                   </li>
                   <li>
                     <i className="fa fa-home"></i>Montreal,Qc
@@ -105,9 +106,9 @@ const ContactDiv = styled.div`
     transition: 1.4s ease 0s;
   }
   a:hover {
-    color: #f6b93b !important;
+    // color: #f6b93b !important;
     transition: all 1.4s ease 0s;
-    font-size: 25px;
+    // font-size: 25px;
   }
   i {
     margin-right: 20px;

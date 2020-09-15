@@ -8,6 +8,7 @@ import Footer from "./components/footer/footer.componet";
 
 import Navbar from "./components/navbar/navbar.component";
 import Carousel from "./components/carousel/carousel.component";
+import Tab from "./pages/projects/Projects";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 class Portfolio extends Component {
@@ -22,7 +23,7 @@ class Portfolio extends Component {
 
         <Skills></Skills>
         {/* <Route path="/project" component={Project}></Route> */}
-
+        {/* <Tab /> */}
         <Project></Project>
 
         <Contact></Contact>
