@@ -296,16 +296,13 @@ const ProjContainer = styled.div`
   }
 
   img:hover {
+    right: 0px;
+    top: -5px;
     opacity: 1;
+    padding: 0px;
+    @include scale(0.9);
   }
-  .entry > spam:hover {
-    img {
-      right: 0px;
-      top: -5px;
-      opacity: 1;
-      padding: 0px;
-      @include scale(0.9);
-    }
+  .entry:hover {
     aside {
       left: -125px;
       transition: all 0.75s ease;
