@@ -366,6 +366,7 @@ const ProjContainer = styled.div`
       opacity: 0;
       transition: all 1s ease;
       padding: 40px 0px;
+      z-index: 150;
     }
   }
 `;
