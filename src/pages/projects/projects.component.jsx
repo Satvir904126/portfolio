@@ -278,6 +278,13 @@ const ProjContainer = styled.div`
   color: #e4e4e4 !important;
 
   img {
+    &:hover {
+      right: 0px;
+      top: -5px;
+      opacity: 1;
+      padding: 0px;
+      // @include scale(0.9);
+    }
     width: 100%;
     height: 420px;
   }
@@ -295,13 +302,7 @@ const ProjContainer = styled.div`
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
   }
 
-  img:hover {
-    right: 0px;
-    top: -5px;
-    opacity: 1;
-    padding: 0px;
-    @include scale(0.9);
-  }
+  
   // spam:hover {
   //   img {
   //   }
