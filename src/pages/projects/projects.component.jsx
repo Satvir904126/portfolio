@@ -302,7 +302,9 @@ const ProjContainer = styled.div`
     padding: 0px;
     @include scale(0.9);
   }
-  .entry:hover {
+  spam:hover {
+    img {
+    }
     aside {
       left: -125px;
       transition: all 0.75s ease;
