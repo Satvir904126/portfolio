@@ -166,6 +166,16 @@ export const projectDetail = [
     gitLink: "https://github.com/Satvir904126/calculatorCSharp",
     techUsed: ["C#", "Visula Studio", "XAML"],
   },
+  {
+    id: 16,
+    type: "c#",
+    title: "Hotel Management ",
+    img: require("./images/hotelmanagement.png"),
+    description:
+      "In this c# App, Hotel Staff can Login into the system and make reservation for Clients, also add or remove client as well as room information. Moreover they have authority to update or cancel the rervation. ",
+    gitLink: "https://github.com/Satvir904126/MyHotelCSharp/tree/master",
+    techUsed: ["C#", "Visula Studio", "OOP", "MySQL-Database"],
+  },
 ];
 export const logos = [
   { id: 0, title: "Html", img: require("./images/html-5.png") },

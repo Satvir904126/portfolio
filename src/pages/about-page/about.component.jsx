@@ -21,7 +21,7 @@ const AboutPage = () => {
           <p className="text-justify">
             I am Web Developer with
             <spam>
-              HTML5, CSS3, React Js, Vanilla Javascript, Bootstrap, C# and PHP
+              HTML5, CSS3, Vanilla Javascript, Bootstrap, C#, React Js and PHP
             </spam>
             . In 2020, I successfully completed my Programming & Web Technology
             diploma.I am a quick learner, who always eager to learn new things,
